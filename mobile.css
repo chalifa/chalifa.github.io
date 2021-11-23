@@ -1,0 +1,74 @@
+/* Responsive style */
+
+* {
+    box-sizing:border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  header
+   {
+    background-color: #101047;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+   }
+
+  .left {
+    background-color:#dedeee;
+    padding:10px;
+    float:left;
+    width:25%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    background-color:#ffffff;
+    padding:20px;
+    float:left;
+    width:50%; /* The width is 60%, by default */
+  }
+  
+  .right {
+    background-color:#F1f1f1;
+    padding:20px;
+    float:left;
+    width:25%; /* The width is 20%, by default */
+  }
+
+
+  .detailProfile {
+      
+  }
+
+  .Title {
+      padding-left: 40px;
+      color: #101047;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  .leftCont {
+      padding-left: 15px;
+      color: #101047;
+      font-size: 18px;
+  }
+
+  .detailPersonal {
+
+  }
+
+  .mainCont {
+      word-wrap: break-word;
+      text-align: justify;
+      color: #101047;
+      font-size: 16px;
+      word-spacing: 2pt;
+  }
+  
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width:800px) {
+    .left, .main, .right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
